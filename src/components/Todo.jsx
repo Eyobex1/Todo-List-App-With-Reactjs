@@ -29,7 +29,9 @@ export const Todo = () => {
 
   return (
     <div className="todo">
-      <div className="todo-header">To-DO List</div>
+      <div className="todo-header">
+        <span className="eyob">Eyob</span> To-DO List
+      </div>
       <div className="todo-add">
         <input
           type="text"
